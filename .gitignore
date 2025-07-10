@@ -1,41 +1,44 @@
-# Prerequisites
+# Prerequisites:
 *.d
 
-# Compiled Object files
+# Compiled Object files:
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
+# Precompiled Headers:
 *.gch
 *.pch
 
-# Linker files
+# Linker files:
 *.ilk
 
-# Debugger Files
+# Debugger Files:
 *.pdb
 
-# Compiled Dynamic libraries
+# Compiled Dynamic libraries:
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
+# Fortran module files:
 *.mod
 *.smod
 
-# Compiled Static libraries
+# Compiled Static libraries:
 *.lai
 *.la
 *.a
 *.lib
 
-# Executables
+# Executables:
 *.exe
 *.out
 *.app
 
-# debug information files
+# debug information files:
 *.dwo
+
+# Build Directory:
+bin/
