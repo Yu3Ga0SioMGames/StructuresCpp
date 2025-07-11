@@ -42,10 +42,3 @@
 
 # Build Directory:
 bin/
-
-# Other:
-LICENSE
-*.md
-*.cbp
-*.depend
-*.layout
