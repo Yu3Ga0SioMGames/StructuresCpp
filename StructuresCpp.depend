@@ -1,22 +1,39 @@
 # depslib dependency file v1.0
-1752233623 source:/home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/main.cpp
-	"stack/test/test.hpp"
+1752260920 source:/home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/main.cpp
+	"sortings/test/test.hpp"
 
-1752241733 source:/home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/stack/stack.cpp
+1752259613 source:/home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/stack/stack.cpp
 	"stack.hpp"
 
-1752241738 /home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/stack/stack.hpp
+1752259613 /home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/stack/stack.hpp
 	<cstdio>
 	<cstdlib>
 	<cstdint>
 	<iostream>
 
-1752241249 source:/home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/stack/test/test.cpp
+1752259613 source:/home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/stack/test/test.cpp
 	"test.hpp"
 
-1752240532 /home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/stack/test/test.hpp
+1752259613 /home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/stack/test/test.hpp
 	"../stack.hpp"
 
 1752233538 /home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/stack/stack.cpp
 	"stack.hpp"
+
+1752266946 source:/home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/sortings/sortings.cpp
+	"sortings.hpp"
+
+1752265596 source:/home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/sortings/test/test.cpp
+	"test.hpp"
+
+1752266226 /home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/sortings/test/test.hpp
+	"../sortings.hpp"
+
+1752267060 /home/yu3ga0siomgames/PROJECTS/PROGRAMMING/PROGRAMS/StructuresCpp/sortings/sortings.hpp
+	<ctime>
+	<cstdio>
+	<cstdint>
+	<cstdlib>
+	<limits>
+	<iostream>
 

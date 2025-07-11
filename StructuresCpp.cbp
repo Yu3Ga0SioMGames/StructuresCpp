@@ -33,6 +33,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="sortings/sortings.cpp" />
+		<Unit filename="sortings/sortings.hpp" />
+		<Unit filename="sortings/test/test.cpp" />
+		<Unit filename="sortings/test/test.hpp" />
 		<Unit filename="stack/stack.cpp" />
 		<Unit filename="stack/stack.hpp" />
 		<Unit filename="stack/test/test.cpp" />
