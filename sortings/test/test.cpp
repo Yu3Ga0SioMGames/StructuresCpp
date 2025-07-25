@@ -2,17 +2,29 @@
 
 int8_t main_sortings_test()
 {
-    printf("\n");
+	printf("\n");
 
 
-    srand(time(NULL));
+	srand(time(NULL));
 
 
-    SortArr sort_arr;
-    sort_arr.print();
+	SortArr sort_arr;
+
+	printf("Available options:\n    %s\n    %s\n    %s"
+	       "\n    %s\n    %s\n    %s\n    %s\n\n",
+	       "NOT_SORT", "BUBBLE", "OPTIMIZE_BUBBLE",
+	       "INSERT", "SELECTION", "MERGE", "QUICK");
+
+	sort_arr.print();
+	/// sort_arr.print(NOT_SORT);
+
+	printf("\n\n");
+
+	/// _arr.print(DESIRED_SORTING);
+	sort_arr.print(MERGE);
 
 
-    printf("\n\n");
+	printf("\n\n");
 
-    return 0;
+	return 0;
 }

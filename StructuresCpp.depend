@@ -37,3 +37,40 @@
 	<limits>
 	<iostream>
 
+1753435326 source:/home/user30/Downloads/ProgrammingProjects/StructuresCpp/main.cpp
+	"sortings/test/test.hpp"
+
+1753435326 /home/user30/Downloads/ProgrammingProjects/StructuresCpp/sortings/test/test.hpp
+	"../sortings.hpp"
+
+1753467915 /home/user30/Downloads/ProgrammingProjects/StructuresCpp/sortings/sortings.hpp
+	<ctime>
+	<cstdio>
+	<cstdint>
+	<cstdlib>
+	<random>
+	<limits>
+	<iostream>
+	<algorithm>
+
+1753465869 source:/home/user30/Downloads/ProgrammingProjects/StructuresCpp/sortings/sortings.cpp
+	"sortings.hpp"
+
+1753465220 source:/home/user30/Downloads/ProgrammingProjects/StructuresCpp/sortings/test/test.cpp
+	"test.hpp"
+
+1753435060 source:/home/user30/Downloads/ProgrammingProjects/StructuresCpp/stack/stack.cpp
+	"stack.hpp"
+
+1753435060 /home/user30/Downloads/ProgrammingProjects/StructuresCpp/stack/stack.hpp
+	<cstdio>
+	<cstdlib>
+	<cstdint>
+	<iostream>
+
+1753435060 source:/home/user30/Downloads/ProgrammingProjects/StructuresCpp/stack/test/test.cpp
+	"test.hpp"
+
+1753435060 /home/user30/Downloads/ProgrammingProjects/StructuresCpp/stack/test/test.hpp
+	"../stack.hpp"
+
