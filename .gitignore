@@ -1,7 +1,7 @@
 # Prerequisites:
 *.d
 
-# Compiled Object files:
+# Compiled Object Files:
 *.slo
 *.lo
 *.o
@@ -11,22 +11,22 @@
 *.gch
 *.pch
 
-# Linker files:
+# Linker Files:
 *.ilk
 
 # Debugger Files:
 *.pdb
 
-# Compiled Dynamic libraries:
+# Compiled Dynamic Libraries:
 *.so
 *.dylib
 *.dll
 
-# Fortran module files:
+# Fortran Module Files:
 *.mod
 *.smod
 
-# Compiled Static libraries:
+# Compiled Static Libraries:
 *.lai
 *.la
 *.a
@@ -37,8 +37,15 @@
 *.out
 *.app
 
-# debug information files:
+# Debug Information Files:
 *.dwo
 
 # Build Directory:
 bin/
+
+# Others:
+LICENSE
+*.md
+*.cbp
+*.depend
+*.layout

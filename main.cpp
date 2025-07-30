@@ -1,6 +1,6 @@
-#include "stack/test/test.hpp"
+#include "sortings/test/test.hpp"
 
 int main()
 {
-    return main_stack_test();
+    return main_sortings_test();
 }
