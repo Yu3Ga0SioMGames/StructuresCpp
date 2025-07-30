@@ -20,30 +20,30 @@
 
 class Stack
 {
-    private:
-        enum {SIZE = 128};
+	private:
+		enum {SIZE = 128};
 
-        int64_t arr[SIZE];
-        int8_t top_index = -1; // because stack is empty
-
-
-    public:
-        Stack()
-        {
-            for(uint8_t i = 0; i < SIZE; ++i) {
-                arr[i] = 0;
-            }
-        }
+		int64_t arr[SIZE];
+		int8_t top_index = -1; // because stack is empty
 
 
-        void push(int64_t);
-        void pop();
-        void clear();
+	public:
+		Stack()
+		{
+			for(uint8_t i = 0; i < SIZE; ++i) {
+				arr[i] = 0;
+			}
+		}
 
-        void peek() const;
-        void print() const;
 
-        uint8_t size() const;
+		void push(int64_t);
+		void pop();
+		void clear();
+
+		void peek() const;
+		void print() const;
+
+		uint8_t size() const;
 };
 
 

@@ -21,7 +21,7 @@ int8_t main_sortings_test()
 	printf("\n\n");
 
 	/// _arr.print(DESIRED_SORTING);
-	sort_arr.print(MERGE);
+	sort_arr.print(QUICK);
 
 
 	printf("\n\n");

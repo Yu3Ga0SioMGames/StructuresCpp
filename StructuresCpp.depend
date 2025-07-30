@@ -43,7 +43,7 @@
 1753435326 /home/user30/Downloads/ProgrammingProjects/StructuresCpp/sortings/test/test.hpp
 	"../sortings.hpp"
 
-1753467915 /home/user30/Downloads/ProgrammingProjects/StructuresCpp/sortings/sortings.hpp
+1753868796 /home/user30/Downloads/ProgrammingProjects/StructuresCpp/sortings/sortings.hpp
 	<ctime>
 	<cstdio>
 	<cstdint>
@@ -53,16 +53,16 @@
 	<iostream>
 	<algorithm>
 
-1753465869 source:/home/user30/Downloads/ProgrammingProjects/StructuresCpp/sortings/sortings.cpp
+1753869412 source:/home/user30/Downloads/ProgrammingProjects/StructuresCpp/sortings/sortings.cpp
 	"sortings.hpp"
 
-1753465220 source:/home/user30/Downloads/ProgrammingProjects/StructuresCpp/sortings/test/test.cpp
+1753868655 source:/home/user30/Downloads/ProgrammingProjects/StructuresCpp/sortings/test/test.cpp
 	"test.hpp"
 
-1753435060 source:/home/user30/Downloads/ProgrammingProjects/StructuresCpp/stack/stack.cpp
+1753863347 source:/home/user30/Downloads/ProgrammingProjects/StructuresCpp/stack/stack.cpp
 	"stack.hpp"
 
-1753435060 /home/user30/Downloads/ProgrammingProjects/StructuresCpp/stack/stack.hpp
+1753863374 /home/user30/Downloads/ProgrammingProjects/StructuresCpp/stack/stack.hpp
 	<cstdio>
 	<cstdlib>
 	<cstdint>

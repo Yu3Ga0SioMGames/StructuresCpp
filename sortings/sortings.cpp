@@ -6,13 +6,13 @@
 /// SortArr:
 void SortArr::sort_bubble()
 {
-	if(SIZE <= 1) {
+	if(size <= 1) {
 		return;
 	}
 
 	uint64_t tmp;
-	for(uint64_t i = 0; i < SIZE; ++i) {
-		for(uint64_t j = 0; j < SIZE - 1 - i; ++j) {
+	for(uint64_t i = 0; i < size; ++i) {
+		for(uint64_t j = 0; j < size - 1 - i; ++j) {
 			if(arr[j] > arr[j + 1]) {
 				tmp = arr[j];
 				arr[j] = arr[j + 1];
@@ -25,15 +25,15 @@ void SortArr::sort_bubble()
 
 void SortArr::sort_optimize_bubble()
 {
-	if(SIZE <= 1) {
+	if(size <= 1) {
 		return;
 	}
 
 	uint8_t swapped;
 	uint64_t tmp;
-	for(uint64_t i = 0; i < SIZE; ++i) {
+	for(uint64_t i = 0; i < size; ++i) {
 		swapped = 0;
-		for(uint64_t j = 0; j < SIZE - 1 - i; ++j) {
+		for(uint64_t j = 0; j < size - 1 - i; ++j) {
 			if(arr[j] > arr[j + 1]) {
 				tmp = arr[j];
 				arr[j] = arr[j + 1];
@@ -52,13 +52,13 @@ void SortArr::sort_optimize_bubble()
 
 void SortArr::sort_insert()
 {
-	if(SIZE <= 1) {
+	if(size <= 1) {
 		return;
 	}
 
 	uint64_t key;
 	uint64_t j;
-	for(uint64_t i = 1; i < SIZE; ++i) {
+	for(uint64_t i = 1; i < size; ++i) {
 		key = arr[i];
 		for(j = i; j > 0 && arr[j - 1] > key; --j) {
 			arr[j] = arr[j - 1];
@@ -71,15 +71,15 @@ void SortArr::sort_insert()
 
 void SortArr::sort_selection()
 {
-	if(SIZE <= 1) {
+	if(size <= 1) {
 		return;
 	}
 
 	uint64_t tmp;
 	uint64_t mIn;
-	for(uint64_t i = 0; i < SIZE - 1; ++i) {
+	for(uint64_t i = 0; i < size - 1; ++i) {
 		mIn = i;
-		for(uint64_t j = i + 1; j < SIZE; ++j) {
+		for(uint64_t j = i + 1; j < size; ++j) {
 			if(arr[mIn] > arr[j]) {
 				mIn = j;
 			}
@@ -152,23 +152,51 @@ void SortArr::sort_merge(uint64_t arg_arr[], uint64_t sIze)
 }
 
 
-void SortArr::sort_quick()
+void SortArr::sort_quick(uint64_t left, uint64_t right)
 {
-	if(SIZE <= 1) {
+	if(size <= 1) {
 		return;
 	}
 
-	;
+	if(left >= right) {
+		return;
+	}
+
+	uint64_t pivot = arr[left + (right - left) / 2];
+	uint64_t i = left, j = right;
+	uint64_t tmp;
+
+	while(i <= j) {
+		while(arr[i] < pivot) {
+			++i;
+		}
+
+		while(arr[j] > pivot) {
+			--j;
+		}
+
+		if(i <= j) {
+			tmp = arr[i];
+			arr[i] = arr[j];
+			arr[j] = tmp;
+
+			++i;
+			--j;
+		}
+	}
+
+	sort_quick(left, j);
+	sort_quick(i, right);
 }
 
 
 
 void SortArr::print() const
 {
-	for(uint64_t i = 0; i < SIZE; ++i) {
+	for(uint64_t i = 0; i < size; ++i) {
 		printf("%ld", arr[i]);
 
-		if(((i + 1) % SIZE) != 0) {
+		if(((i + 1) % size) != 0) {
 			printf(" ");
 		}
 	}
@@ -199,7 +227,7 @@ void SortArr::print(char SORT)
 			break;
 
 		case QUICK:
-			sort_quick();
+			sort_quick(0, size - 1);
 			break;
 
 
@@ -207,10 +235,10 @@ void SortArr::print(char SORT)
 			break;
 	}
 
-	for(uint64_t i = 0; i < SIZE; ++i) {
-		printf("%ld", arr[i]);
+	for(uint64_t i = 0; i < size; ++i) {
+		printf("%lu", arr[i]);
 
-		if(((i + 1) % SIZE) != 0) {
+		if(((i + 1) % size) != 0) {
 			printf(" ");
 		}
 	}
