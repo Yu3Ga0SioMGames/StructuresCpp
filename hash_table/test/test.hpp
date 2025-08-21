@@ -9,4 +9,4 @@
 int8_t test_hash_table();
 
 
-#endif    // TEST_HPP_INCLUDED
+#endif   // TEST_HPP_INCLUDED
