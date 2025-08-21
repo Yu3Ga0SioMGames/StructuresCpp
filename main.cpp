@@ -1,6 +1,6 @@
-#include "sortings/test/test.hpp"
+#include "hash_table/test/test.hpp"
 
 int main()
 {
-    return main_sortings_test();
+	return test_hash_table();
 }
