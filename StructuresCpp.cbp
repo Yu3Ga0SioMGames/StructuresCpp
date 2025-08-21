@@ -47,6 +47,10 @@
 		<Unit filename="stack/stack.hpp" />
 		<Unit filename="stack/test/test.cpp" />
 		<Unit filename="stack/test/test.hpp" />
+		<Unit filename="tree/test/test.cpp" />
+		<Unit filename="tree/test/test.hpp" />
+		<Unit filename="tree/tree.cpp" />
+		<Unit filename="tree/tree.hpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
