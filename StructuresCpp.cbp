@@ -32,6 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="common/common.cpp" />
+		<Unit filename="common/common.hpp" />
+		<Unit filename="hash_table/hash_table.cpp" />
+		<Unit filename="hash_table/hash_table.hpp" />
+		<Unit filename="hash_table/test/test.cpp" />
+		<Unit filename="hash_table/test/test.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="sortings/sortings.cpp" />
 		<Unit filename="sortings/sortings.hpp" />
