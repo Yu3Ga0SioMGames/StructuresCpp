@@ -2,6 +2,11 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+	<File name="common/common.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="296" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="stack/test/test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="20" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="672" topLine="0" />
@@ -11,63 +16,6 @@
 			<Collapse line="19" />
 			<Collapse line="49" />
 		</Folding>
-	</File>
-	<File name="hash_table/test/test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="20" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1665" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="3" />
-			<Collapse line="5" />
-			<Collapse line="14" />
-			<Collapse line="25" />
-			<Collapse line="36" />
-			<Collapse line="47" />
-		</Folding>
-	</File>
-	<File name="sortings/test/test.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="20" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="471" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="3" />
-			<Collapse line="12" />
-		</Folding>
-	</File>
-	<File name="common/common.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="296" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="hash_table/test/test.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="8" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="82" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="stack/stack.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="880" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="5" />
-			<Collapse line="6" />
-			<Collapse line="17" />
-			<Collapse line="31" />
-			<Collapse line="34" />
-			<Collapse line="44" />
-			<Collapse line="45" />
-			<Collapse line="50" />
-			<Collapse line="59" />
-			<Collapse line="64" />
-			<Collapse line="65" />
-			<Collapse line="70" />
-			<Collapse line="79" />
-		</Folding>
-	</File>
-	<File name="hash_table/hash_table.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="628" topLine="51" />
-		</Cursor>
 	</File>
 	<File name="sortings/sortings.hpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
@@ -80,20 +28,84 @@
 			<Collapse line="45" />
 		</Folding>
 	</File>
-	<File name="stack/stack.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+	<File name="tree/tree.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="664" topLine="0" />
+			<Cursor1 position="963" topLine="9" />
 		</Cursor>
 		<Folding>
-			<Collapse line="21" />
-			<Collapse line="31" />
-			<Collapse line="32" />
+			<Collapse line="19" />
+		</Folding>
+	</File>
+	<File name="tree/test/test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5098" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="11" />
+			<Collapse line="13" />
+			<Collapse line="25" />
+			<Collapse line="39" />
+			<Collapse line="97" />
+			<Collapse line="143" />
+			<Collapse line="239" />
+			<Collapse line="250" />
+			<Collapse line="261" />
 		</Folding>
 	</File>
 	<File name="stack/test/test.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="16" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="185" topLine="0" />
 		</Cursor>
+	</File>
+	<File name="sortings/sortings.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3296" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="7" />
+			<Collapse line="8" />
+			<Collapse line="13" />
+			<Collapse line="14" />
+			<Collapse line="15" />
+			<Collapse line="26" />
+			<Collapse line="27" />
+			<Collapse line="33" />
+			<Collapse line="35" />
+			<Collapse line="36" />
+			<Collapse line="45" />
+			<Collapse line="53" />
+			<Collapse line="54" />
+			<Collapse line="60" />
+			<Collapse line="62" />
+			<Collapse line="72" />
+			<Collapse line="73" />
+			<Collapse line="79" />
+			<Collapse line="81" />
+			<Collapse line="82" />
+			<Collapse line="87" />
+			<Collapse line="96" />
+			<Collapse line="98" />
+			<Collapse line="122" />
+			<Collapse line="130" />
+			<Collapse line="131" />
+			<Collapse line="138" />
+			<Collapse line="139" />
+			<Collapse line="144" />
+			<Collapse line="155" />
+			<Collapse line="156" />
+			<Collapse line="160" />
+			<Collapse line="168" />
+			<Collapse line="169" />
+			<Collapse line="173" />
+			<Collapse line="177" />
+			<Collapse line="194" />
+			<Collapse line="195" />
+			<Collapse line="198" />
+			<Collapse line="206" />
+			<Collapse line="207" />
+			<Collapse line="237" />
+			<Collapse line="240" />
+		</Folding>
 	</File>
 	<File name="hash_table/hash_table.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
 		<Cursor>
@@ -152,54 +164,105 @@
 			<Collapse line="361" />
 		</Folding>
 	</File>
-	<File name="sortings/sortings.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+	<File name="tree/tree.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3296" topLine="0" />
+			<Cursor1 position="8376" topLine="0" />
 		</Cursor>
 		<Folding>
-			<Collapse line="7" />
-			<Collapse line="8" />
 			<Collapse line="13" />
 			<Collapse line="14" />
-			<Collapse line="15" />
-			<Collapse line="26" />
+			<Collapse line="24" />
+			<Collapse line="25" />
 			<Collapse line="27" />
-			<Collapse line="33" />
+			<Collapse line="34" />
 			<Collapse line="35" />
-			<Collapse line="36" />
-			<Collapse line="45" />
-			<Collapse line="53" />
-			<Collapse line="54" />
-			<Collapse line="60" />
+			<Collapse line="46" />
+			<Collapse line="48" />
+			<Collapse line="61" />
 			<Collapse line="62" />
-			<Collapse line="72" />
-			<Collapse line="73" />
-			<Collapse line="79" />
-			<Collapse line="81" />
-			<Collapse line="82" />
-			<Collapse line="87" />
-			<Collapse line="96" />
-			<Collapse line="98" />
-			<Collapse line="122" />
-			<Collapse line="130" />
-			<Collapse line="131" />
-			<Collapse line="138" />
-			<Collapse line="139" />
-			<Collapse line="144" />
-			<Collapse line="155" />
-			<Collapse line="156" />
+			<Collapse line="74" />
+			<Collapse line="75" />
+			<Collapse line="83" />
+			<Collapse line="84" />
+			<Collapse line="94" />
+			<Collapse line="95" />
+			<Collapse line="99" />
+			<Collapse line="100" />
+			<Collapse line="106" />
+			<Collapse line="115" />
+			<Collapse line="116" />
+			<Collapse line="124" />
+			<Collapse line="126" />
+			<Collapse line="128" />
+			<Collapse line="134" />
+			<Collapse line="136" />
+			<Collapse line="146" />
+			<Collapse line="148" />
 			<Collapse line="160" />
-			<Collapse line="168" />
-			<Collapse line="169" />
+			<Collapse line="161" />
+			<Collapse line="165" />
 			<Collapse line="173" />
-			<Collapse line="177" />
-			<Collapse line="194" />
-			<Collapse line="195" />
-			<Collapse line="198" />
-			<Collapse line="206" />
-			<Collapse line="207" />
-			<Collapse line="237" />
-			<Collapse line="240" />
+			<Collapse line="174" />
+			<Collapse line="178" />
+			<Collapse line="179" />
+			<Collapse line="188" />
+			<Collapse line="199" />
+			<Collapse line="201" />
+			<Collapse line="203" />
+			<Collapse line="209" />
+			<Collapse line="211" />
+			<Collapse line="222" />
+			<Collapse line="223" />
+			<Collapse line="227" />
+			<Collapse line="228" />
+			<Collapse line="232" />
+			<Collapse line="238" />
+			<Collapse line="242" />
+			<Collapse line="250" />
+			<Collapse line="264" />
+			<Collapse line="265" />
+			<Collapse line="273" />
+			<Collapse line="275" />
+			<Collapse line="282" />
+			<Collapse line="290" />
+			<Collapse line="291" />
+			<Collapse line="296" />
+			<Collapse line="304" />
+			<Collapse line="305" />
+			<Collapse line="310" />
+			<Collapse line="319" />
+			<Collapse line="320" />
+			<Collapse line="326" />
+			<Collapse line="328" />
+			<Collapse line="335" />
+			<Collapse line="348" />
+			<Collapse line="349" />
+			<Collapse line="357" />
+			<Collapse line="358" />
+			<Collapse line="364" />
+			<Collapse line="365" />
+			<Collapse line="380" />
+			<Collapse line="381" />
+		</Folding>
+	</File>
+	<File name="stack/stack.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="880" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+			<Collapse line="6" />
+			<Collapse line="17" />
+			<Collapse line="31" />
+			<Collapse line="34" />
+			<Collapse line="44" />
+			<Collapse line="45" />
+			<Collapse line="50" />
+			<Collapse line="59" />
+			<Collapse line="64" />
+			<Collapse line="65" />
+			<Collapse line="70" />
+			<Collapse line="79" />
 		</Folding>
 	</File>
 	<File name="common/common.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="11" zoom_2="0">
@@ -207,12 +270,59 @@
 			<Cursor1 position="61" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="20" zoom_2="0">
+	<File name="hash_table/test/test.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="8" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="79" topLine="0" />
+			<Cursor1 position="82" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="17" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="62" topLine="0" />
 		</Cursor>
 		<Folding>
 			<Collapse line="3" />
+		</Folding>
+	</File>
+	<File name="tree/test/test.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="20" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="129" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="hash_table/hash_table.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="628" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="hash_table/test/test.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="20" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1665" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="3" />
+			<Collapse line="5" />
+			<Collapse line="14" />
+			<Collapse line="25" />
+			<Collapse line="36" />
+			<Collapse line="47" />
+		</Folding>
+	</File>
+	<File name="stack/stack.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="664" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="21" />
+			<Collapse line="31" />
+			<Collapse line="32" />
+		</Folding>
+	</File>
+	<File name="sortings/test/test.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="20" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="471" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="3" />
+			<Collapse line="12" />
 		</Folding>
 	</File>
 </CodeBlocks_layout_file>
